@@ -22,7 +22,7 @@ YCR , BCR = Amount of Yellow Crystal (YCR) and the Blue Crystal Reuqired (BCR)
 `BCR = GB + 3 * BB`
 
 Print out the required Yellow and Blue crystals by :\
-`print(max(0,YCR-YC) + max(0, BCR-BC)`\
+`print(max(0,YCR-YC) + max(0, BCR-BC)`
 
 # Fraction
 [**SUBMISSION**](https://codeforces.com/contest/854/submission/42497183)
@@ -33,14 +33,14 @@ The fraction is irreduccible if its numerator and denominator are coprime.\
 He mistakenly use a calculator and got sum of numerator and the denominator equal to `n`.
 
 INPUT\
-The sum of the numerator and denominator ( `n` ).\
+The sum of the numerator and denominator ( `n` ).
 
 `if n % 2 == 1:` -> `n` is an odd number\
 `N = n // 2` -> using floor division for the odd number (example: 3 / 2 = 1.5 | 3 // 2 = 1)\
 and if the `n` is an even number, substract the `N` by 1.
 
 OUTPUT\
-The `N` -> Numerator and `D` -> Denominator that form an irreduccible fraction.\
+The `N` -> Numerator and `D` -> Denominator that form an irreduccible fraction.
 
 
 # Diverse Team
